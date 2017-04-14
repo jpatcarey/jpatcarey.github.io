@@ -1,0 +1,160 @@
+
+
+.title {
+  font-family: "Roboto" serif;
+  color: black;
+  text-align: center;
+  text-shadow: 0 4px 0 white;
+  min-height: 405px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(img/gallery/title.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title h1 {
+  font-size: 50px;
+}
+
+* {
+  font-family: "Roboto", serif;
+
+}
+
+* p {
+  font-size: 18px;
+}
+
+
+
+h1 {
+  font-size: 35px;
+  font-weight: bold;
+
+}
+
+h2 {
+  display: block;
+  text-align: center;
+  padding: 25px;
+  text-decoration: underline;
+  letter-spacing: .5px;
+}
+
+.navigation {
+  border: .5px solid #1f1c0e;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navigation li {
+  float: left;
+
+}
+
+.navigation li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.navigation li a:hover {
+  background-color: #111;
+}
+
+
+.home {
+  background-color: #2D3F92;
+  color: white;
+  font-family: "Roboto", serif;
+  padding: 60px;
+  border: .5px solid #1f1c0e;
+  font-size: 18px;
+
+}
+
+.home .left-col {
+  float: left;
+  color: white;
+}
+
+.home .right-col {
+  float: right;
+  color: white;
+}
+
+.About {
+ background-color: #333;
+ color: white;
+ padding: 60px;
+ border: .5px solid #1f1c0e;
+}
+
+.Journal {
+  background-color: #2D3F92;
+  color: white;
+  padding: 60px;
+  border: .5px solid #1f1c0e;
+}
+
+.Conferences {
+  background-color: #333;
+  color: white;
+  padding: 60px;
+  border: .5px solid #1f1c0e;
+}
+
+.Membership {
+  background-color: #2D3F92;
+  color: white;
+  padding: 60px;
+  border: .5px solid #1f1c0e;
+}
+
+.Resources {
+  background-color: #333;
+  color: white;
+  padding: 60px;
+  border: .5px solid #1f1c0e;
+}
+
+.Contact {
+  background-color: #2D3F92;
+  color: white;
+  padding: 60px;
+  border: .5px solid #1f1c0e;
+}
+
+#social {
+  padding: 10px;
+  text-align:center;
+}
+
+#Info {
+  padding: 60px;
+  text-align: center;
+}
+
+#social a {
+  margin: 0 0 0 10px;
+  text-decoration: none;
+}
+
+#social img {
+  height: 20px;
+}
+
+#social img:hover {
+  opacity: 0.5;
+}
